@@ -41,7 +41,7 @@ I design and verify hardware end-to-end — RTL, CMOS/digital circuits, PCBs, an
 
 ### 🎓 Education
 
-**M.S. Electrical & Computer Engineering** — Northeastern University (Seattle) — *Sep 2025–Present*
+**M.S. Electrical & Computer Engineering** — Northeastern University (Seattle), GPA 3.92/4.0 — *Sep 2025–Present*
 **B.E. Electronics & Communication Engineering** — Dr. Ambedkar Institute of Technology, Bengaluru — *2020–2024*
 
 ---
