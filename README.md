@@ -31,11 +31,15 @@ I design and verify hardware end-to-end — RTL, CMOS/digital circuits, PCBs —
 | **Credit Card Fraud Detection** | Benchmarked 5 ML models on 284,807 transactions at 0.17% fraud prevalence — ~0.99 AUC-ROC via leak-free SMOTE and recall-prioritized threshold tuning under asymmetric misclassification cost. |
 
 ### 📄 Publication
-**"Design of a 6G THz-Band Microstrip Patch Antenna"** — IJNRD 2024 (KSCST-funded), full-wave EM design in CST Studio Suite. [Read it →](https://ijnrd.org/papers/IJNRD2406113.pdf)
+**"Design of 6G Antenna"** — IJNRD 2024, Vol. 9 Issue 6 (ISSN 2456-4184), **first author** — millimeter- and micrometer-scale microstrip patch antennas for 6G THz-band communication, designed and simulated in CST Studio Suite. [Read it →](https://www.ijnrd.org/papers/IJNRD2406113.pdf)
 
 ### 🎓 Education
 **M.S. Electrical & Computer Engineering** — Northeastern University (Seattle), GPA 3.92/4.0 — Sep 2025–Present
 **B.E. Electronics & Communication Engineering** — Dr. Ambedkar Institute of Technology, Bengaluru — 2020–2024
+Recipient of the **Seattle Campus Scholarship** and **International Impact Award** (competitive merit scholarships covering 30% of program tuition combined).
+
+### 📜 Certification
+**Emertxe Certified Embedded Professional (ECEP)** — Emertxe Information Technologies, 2025 — Linux Systems, Advanced C, Data Structures, Linux Internals & Networking, Micro Controllers, C++ Programming. [Verify →](https://certificate.emertxe.com/?id=24032F_023)
 
 ---
 ✉️ Reach me at [mahananda.c@northeastern.edu](mailto:mahananda.c@northeastern.edu) or on [LinkedIn](https://linkedin.com/in/chinmaymahananda)
