@@ -35,8 +35,10 @@ I design and verify hardware end-to-end — RTL, CMOS/digital circuits, PCBs —
 
 ### 🎓 Education
 **M.S. Electrical & Computer Engineering** — Northeastern University (Seattle), GPA 3.92/4.0 — Sep 2025–Present
+
 **B.E. Electronics & Communication Engineering** — Dr. Ambedkar Institute of Technology, Bengaluru — 2020–2024
-Recipient of the **Seattle Campus Scholarship** and **International Impact Award** (competitive merit scholarships covering 30% of program tuition combined).
+
+Recipient of the **Seattle Campus Scholarship** and **International Impact Award** — competitive merit scholarships covering 30% of program tuition combined.
 
 ### 📜 Certification
 **Emertxe Certified Embedded Professional (ECEP)** — Emertxe Information Technologies, 2025 — Linux Systems, Advanced C, Data Structures, Linux Internals & Networking, Micro Controllers, C++ Programming. [Verify →](https://certificate.emertxe.com/?id=24032F_023)
