@@ -31,7 +31,7 @@ I design and verify hardware end-to-end — RTL, CMOS/digital circuits, PCBs —
 | **Credit Card Fraud Detection** | Benchmarked 5 ML models on 284,807 transactions at 0.17% fraud prevalence — ~0.99 AUC-ROC via leak-free SMOTE and recall-prioritized threshold tuning under asymmetric misclassification cost. |
 
 ### 📄 Publication
-**"Design of 6G Antenna"** — IJNRD 2024, Vol. 9 Issue 6 (ISSN 2456-4184), **first author** — millimeter- and micrometer-scale microstrip patch antennas for 6G THz-band communication, designed and simulated in CST Studio Suite. [Read it →](https://www.ijnrd.org/papers/IJNRD2406113.pdf)
+**"Design of 6G Antenna"** — IJNRD 2024, Vol. 9 Issue 6 (ISSN 2456-4184), **first author**, KSCST-funded — millimeter- and micrometer-scale microstrip patch antennas for 6G THz-band communication, designed and simulated in CST Studio Suite. [Read it →](https://www.ijnrd.org/papers/IJNRD2406113.pdf)
 
 ### 🎓 Education
 **M.S. Electrical & Computer Engineering** — Northeastern University (Seattle), GPA 3.92/4.0 — Sep 2025–Present
