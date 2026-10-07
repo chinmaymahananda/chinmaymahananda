@@ -1,10 +1,11 @@
 # Hi, I'm Chinmay 👋
-**Hardware & Silicon Engineer** — VLSI/Mixed-Signal Design · Digital & PCB Hardware · ML-Hardware Systems
+**Hardware & Silicon Engineer** — Design Verification & RTL Design · Digital & PCB Hardware · ML-Hardware Systems
 M.S. ECE @ Northeastern University (Hardware & Software for Machine Intelligence track, GPA 3.92/4.0) · Published 6G antenna researcher · Building across the stack from transistors to Verilog to ML accelerators.
 
-📍 Seattle, WA &nbsp;|&nbsp; 🎯 Seeking Hardware/Silicon Engineering Internships & New-Grad Roles
+📍 Seattle, WA &nbsp;|&nbsp; 🎯 Seeking Spring/Summer 2027 co-op & internship roles in design verification and RTL design · Graduating Dec 2027
 &nbsp;|&nbsp; ✉️ [mahananda.c@northeastern.edu](mailto:mahananda.c@northeastern.edu)
 &nbsp;|&nbsp; 🔗 [LinkedIn](https://linkedin.com/in/chinmaymahananda)
+&nbsp;|&nbsp; 🌐 [Portfolio](https://chinmaymahananda.github.io)
 
 ---
 
@@ -14,10 +15,10 @@ I design and verify hardware end-to-end — RTL, CMOS/digital circuits, PCBs —
 - **VLSI / Circuit Design:** CMOS & digital logic, schematic capture & simulation (Cadence Virtuoso, Spectre), MOSFET I–V characterization, DC/transient analysis, logical-effort sizing
 - **Digital Design / HDL:** Verilog, RTL-to-GDSII ASIC flows (Yosys, OpenROAD, Sky130), parameterizable datapath design, self-checking testbenches
 - **PCB / Embedded:** Schematic capture, layout & fabrication (KiCad, Altium), board bring-up & fault isolation, Embedded C
-- **ML / Computer Vision:** PyTorch, CNN-based detection & embedding models (YOLO11, EfficientNet, transfer learning), classical ML for imbalanced classification (XGBoost, scikit-learn)
+- **ML / Computer Vision:** PyTorch, CNN-based detection & embedding models (YOLO11, EfficientNet, transfer learning)
 
 ### 🔧 Tools & Languages
-`Verilog` `Python` `Embedded C` `MATLAB` `SPICE` `Cadence Virtuoso` `Spectre` `LTspice` `CST Studio Suite` `KiCad` `Altium` `PyTorch` `scikit-learn` `XGBoost` `Git` `Icarus Verilog` `Logisim`
+`Verilog` `SystemVerilog` `Python` `Embedded C` `MATLAB` `SPICE` `Cadence Virtuoso` `Spectre` `LTspice` `CST Studio Suite` `KiCad` `Altium` `PyTorch` `scikit-learn` `Git` `Icarus Verilog` `Yosys` `OpenROAD` `OpenLane` `Sky130` `Logisim`
 
 ### 🚀 Featured Projects
 
@@ -26,13 +27,10 @@ I design and verify hardware end-to-end — RTL, CMOS/digital circuits, PCBs —
 | [**mx-conformance (mxgold)**](https://github.com/chinmaymahananda/mx-conformance) | Zero-dependency Python golden reference for OCP Microscaling (MX) arithmetic at the operation layer, not just encode/decode of single elements. v0.1 passes 43/43 conformance checks across MXFP8, MXFP6, MXFP4, MXINT8 and NVFP4, under CI on Python 3.10-3.13. Documents an unwritten divergence: the spec defines how a block scale is applied but never how an encoder selects one, and that unspecified choice costs 0.1892 relative error versus 0.0000 on the same 16-element block. |
 | [**riscv-pipelined-core**](https://github.com/chinmaymahananda/riscv-pipelined-core) | 4-stage pipelined RV32I core (IF→EX→MEM→WB) with hazard forwarding, load-use stalling, and branch handling, verified bit-exact against a from-scratch golden model — carried through a full open-source ASIC flow (Yosys, OpenROAD, Sky130 PDK) to signed-off GDSII at 333MHz, zero DRC/LVS violations. A 500MHz stretch attempt was honestly documented as a failed timing closure rather than discarded. |
 | [**systolic-mac-array**](https://github.com/chinmaymahananda/systolic-mac-array) | Parameterizable output-stationary systolic MAC array built bottom-up from a single MAC PE, extended into a weight-stationary INT8 CNN inference accelerator (Conv1→Conv2→FC) with interlayer requantization. Verified bit-exact against a Python golden model across all 20 calibration samples. Caught a two-cycle control-latency bug during Conv1 bring-up by diffing waveforms against per-tap golden accumulator values: registered ROM reads plus registered address outputs meant the MAC enable had to lag the tap index by two cycles, not one, and a single delay stage left 124 of 144 outputs mismatched. |
-| **8-Bit ALU & 4:1 MUX** | 8-bit ALU built from a 1-bit cell in Logisim (AND/OR/XOR/NOR, two's-complement add/subtract, SLT); 4:1 MUX built and transient-verified in Cadence Virtuoso/Spectre across all four select states. |
-| **PCB Fabrication & Bring-Up** | End-to-end board ownership — schematic capture, layout, fabrication, assembly, and functional test, bringing up power and signal nets on first power-on. Isolated a failed signal net to an improperly routed ground return via systematic continuity/probe testing rather than reflow guesswork. |
-| **Pokémon TCG Card Recognition** | Team project (with Jeffrey Ma, Rayne Liu) — YOLO11-Nano OBB detector + EfficientNet-B0 triplet-loss embedding pipeline for sub-2-second recognition across 558 card embeddings, trained on a single RTX 3050 with augmentation to close the sim-to-real gap. |
-| **Credit Card Fraud Detection** | Benchmarked 5 ML models on 284,807 transactions at 0.17% fraud prevalence — ~0.99 AUC-ROC via leak-free SMOTE and recall-prioritized threshold tuning under asymmetric misclassification cost. |
+| [**Pokémon TCG Card Recognition**](https://github.com/chinmaymahananda/pokemon-card-scanner) | Team project (with Jeffrey Ma, Rayne Liu) for EECE 7370 Advanced Computer Vision — YOLO11-Nano OBB detector + EfficientNet-B0 triplet-loss embedding pipeline. My part: integrating the trained model into the app interface. Team results: ~95.5% top-1 accuracy (21 of 22 test photos) across 558 cards. |
 
 ### 📄 Publication
-**"Design of 6G Antenna"** — IJNRD 2024, Vol. 9 Issue 6 (ISSN 2456-4184), **first author**, KSCST-funded — millimeter- and micrometer-scale microstrip patch antennas for 6G THz-band communication, designed and simulated in CST Studio Suite. [Read it →](https://www.ijnrd.org/papers/IJNRD2406113.pdf)
+**"Design of 6G Antenna"** — IJNRD 2024, Vol. 9 Issue 6 (ISSN 2456-4184), **first author** — millimeter- and micrometer-scale microstrip patch antennas for 6G THz-band communication, designed and simulated in CST Studio Suite. [Read it →](https://www.ijnrd.org/papers/IJNRD2406113.pdf)
 
 ### 🎓 Education
 **M.S. Electrical & Computer Engineering** — Northeastern University (Seattle), GPA 3.92/4.0 — Sep 2025 – Dec 2027 (expected)
